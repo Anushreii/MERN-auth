@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <div className='bg-slate-300'>
         <div className='flex justify-between items-center max-w-6xl max-auto p-3'>
-            <Link to='/'>
-      <h1 className='font-extrabold'>AUTH APP</h1></Link> 
+            
+      <Link to='/'>  <h1 className='font-extrabold'>AUTH APP</h1></Link> 
       <ul className='flex gap-4'>
         <Link to='/'><li>Home</li></Link> 
         <Link to='/About'> <li>About</li></Link> 
